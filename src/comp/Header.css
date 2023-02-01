@@ -1,0 +1,51 @@
+
+.myheader .ali{
+  background-color: teal;
+}
+
+
+
+.hide-when-mobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+/* ==================
+    3. header of mobile
+===================== */
+.show-when-mobile {
+  display: none;
+}
+
+.logo {
+  animation: logoani 25s infinite;
+}
+
+@keyframes logoani {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    letter-spacing: 7px;
+    opacity: 1;
+  }
+}
+.logo:hover {
+  font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

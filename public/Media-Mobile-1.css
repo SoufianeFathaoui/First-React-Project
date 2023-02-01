@@ -1,0 +1,15 @@
+.hide-when-mobile,
+.hide-when-mobile h1,
+.hide-when-mobile a {
+  flex-direction: column;
+  font-size: 15px;
+}
+
+main a,
+main h1 {
+  font-size: 15px !important;
+}
+.hide-when-mobile ul li {
+  font-size: 10px !important;
+  padding: 15px;
+}

@@ -1,0 +1,79 @@
+.theme-btn {
+  outline: 0;
+  border-radius: 1rem;
+  padding: .3rem .5rem;
+  color: #fff;
+  /* background-color: #3d4a59; */
+  background-color: transparent;
+  border: 1.5px solid #ddd;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all .3s;
+}
+
+.theme-btn:hover {
+  box-shadow: 0 0 10px #9e4673,0 0 40px #9e4673,0 0 80px #9e4673;
+  background: #9e4673;
+  border: none;
+  outline: 0;
+}
+.theme-btn:focus {
+  padding: 4px 12px;
+  box-shadow: 0 0 10px #9e4673,0 0 40px #9e4673,0 0 80px #9e4673;
+  box-shadow: 0 0 0 5px #3d4a59,0 0 0 6px #fff;
+}
+.Dark main{
+  background-color: black;
+  /* color: white; */
+}
+.Dark main , footer , header{
+  color: white;
+}
+.Dark .ali{
+  background-color: rgb(27, 26, 26);
+}
+.Dark .myfooter .ali{
+  background-color: rgb(27, 26, 26);
+}
+.Light .fa-moon{
+  display: none;
+}
+.Light .errorParagraph{
+  color: rgb(183, 0, 0);
+  font-weight:bolder;
+}
+.Light h1{
+  color: black;
+}
+.Light p {
+  color: black;
+}
+.Dark .fa-sun{
+  display: none;
+}
+.fa-sun{
+  color: orange;
+}
+.fa-moon{
+  color: black;
+}
+.fa-solid{
+  font-size:25px;
+}
+.fa-solid:hover{
+  font-size: 28px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.Dark form .account  {
+  color: white;
+}
+.Dark form input{
+  border:  solid 1px;
+}
+.Light .user h6 , time {
+  color: #333;
+}
+.Light button{
+  border: none;
+}
